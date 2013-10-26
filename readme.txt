@@ -2,6 +2,8 @@
 
 版本：1.0
 
+运行:localhost:8080/SSH
+
 使用技术说明：
 
 1.使用struts2+spring3+hibernate3整合实现用户CRUD功能。
