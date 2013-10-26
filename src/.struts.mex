@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="myApp" location="40,107" size="262,537">
+    <action name="userManagerAct" location="22,84" size="210,41">
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="query" location="47,170" size="150,40" />
+    <action name="delete" location="45,260" size="150,40" />
+    <action name="edit" location="44,337" size="150,41">
+      <result name="editUser">
+        <resourceEdge source="editUser" routing="0" target="editUser.jsp" />
+      </result>
+    </action>
+    <action name="add" location="44,431" size="150,41">
+      <result name="addUser">
+        <resourceEdge source="addUser" routing="0" target="addUser.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="417,193" size="150,55" />
+  <webResource name="editUser.jsp" path="/WEB-INF/jsp/editUser.jsp" location="424,445" size="150,55" />
+  <webResource name="addUser.jsp" path="/WEB-INF/jsp/addUser.jsp" location="427,545" size="150,55" />
+</Struts2Diagram>
+
